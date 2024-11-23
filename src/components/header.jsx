@@ -1,9 +1,9 @@
-import  TALogoBlue  from "../assets/Pngs/TALogoBlue.png";
+import  TALogoWhite  from "../assets/Pngs/TALogoWhite.png";
 
 const Header = () => {
   return (
-    <nav className="bg-gray-800">
-      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+    <nav className="">
+      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 pt-4">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
             <button
@@ -19,7 +19,7 @@ const Header = () => {
           <div className="flex flex-1 items-center  sm:items-stretch sm:justify-start px-2">
             <div className="flex shrink-0 items-center">
               <img
-                src={TALogoBlue}
+                src={TALogoWhite}
                 width="102px"
                 alt="logo"
               />
