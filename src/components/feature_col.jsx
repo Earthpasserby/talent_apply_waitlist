@@ -122,8 +122,8 @@ const Feature_col = () => {
               </p>
             </div>
           </div>{" "}
-          <div className=" w-full nine:w-[49.2%] laptop:w-[32.333%] mb-4 !bg-[#0967D2] tablet:text-center">
-            <div className=" justify-center items-center gap-2 text-center">
+          <div className=" w-full nine:w-[49.2%] laptop:w-[32.333%] mb-4 !bg-[#0967D2] tablet:flex tablet:justify-center tablet:items-center tablet:text-center mx-auto">
+            <div className=" gap-2 text-center">
               <h2 className="text-base mt-2 tablet:leading-9 text-[16px] leading-6 font-bold text-[#fff]">
                 Don’t miss out, join over 10,000+ job seekers and start
                 applying. 🥳💃🕺🪩☺️🙌
@@ -133,9 +133,8 @@ const Feature_col = () => {
               </button>
             </div>
           </div>
-        </div>  
+        </div>
       </div>
-      
     </>
   );
 };
