@@ -46,6 +46,9 @@ const Waitlist = () => {
       </div>
       <Direct />
       <Features />
+      
+      
+      
     </>
   );
 };

@@ -15,6 +15,10 @@ const Features = () => {
             </p>
           </div>
           <Feature_col />
+          <div className="pt-20">
+            <hr className="absolute left-0 w-full border-t border-gray-300" />
+            <p className="text-[#67737E] text-center text-[12px] pt-8 pb-8">Copyright © 2024. TalentApply Inc.</p>
+          </div>
         </div>
       </div>
     </>
