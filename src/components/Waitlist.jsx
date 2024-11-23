@@ -1,6 +1,7 @@
 import Header from "./header";
 import Direct from "./Direct";
 import h from "../assets/Pngs/h.png";
+import Features from "./features";
 
 const Waitlist = () => {
   return (
@@ -44,6 +45,7 @@ const Waitlist = () => {
         </div>
       </div>
       <Direct />
+      <Features />
     </>
   );
 };
