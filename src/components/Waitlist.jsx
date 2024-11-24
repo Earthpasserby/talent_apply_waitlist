@@ -1,12 +1,25 @@
+import { useState } from "react";
+import { Modal, SecondModal } from "./Modal";
 import Header from "./header";
 import Direct from "./Direct";
 import h from "../assets/Pngs/h.png";
 import Features from "./features";
 
 const Waitlist = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isSecondModalOpen, setIsSecondModalOpen] = useState(false);
+
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
+  const openSecondModal = () => {
+    setIsModalOpen(false);
+    setIsSecondModalOpen(true);
+  };
+  const closeSecondModal = () => setIsSecondModalOpen(false);
+
   return (
     <>
-      <div className="bg-[#0967D2]  ">
+      <div className="bg-[#0967D2] relative">
         <Header />
         <div className="text-center laptop:pb-12 tablet:pt-[124px] pt-[100px] w-[90vw] mx-auto max-w-[1280px]">
           <h1 className="text-[#fff] font-normal lg:text-[44px] md:text-[44px] sm:text-[26px] text-[26px] pb-2">
@@ -32,7 +45,10 @@ const Waitlist = () => {
                 placeholder="Enter your email address"
                 type="text"
               />
-              <button className="border-[0.5px] absolute border-0 py-2 bg-[#fff] right-2 top-1/2 transform -translate-y-1/2  md:py-[10px] px-5 md:px-[25px] rounded-xl text-[#0967d2] text-base font-normal">
+              <button
+                onClick={openModal}
+                className=" absolute border-0 py-2 bg-[#fff] right-2 top-1/2 transform -translate-y-1/2  md:py-[10px] px-5 md:px-[25px] rounded-xl text-[#0967d2] text-base font-normal"
+              >
                 Join the waitlist
               </button>
             </div>
@@ -43,13 +59,21 @@ const Waitlist = () => {
             <img src={h} className="w-full" alt="logo" />
           </div>
         </div>
+
+        {/* Modal */}
       </div>
       <Direct />
       <Features />
-      
-      
-      
+
+      {/* Modals */}
+      <Modal
+        isOpen={isModalOpen}
+        closeModal={closeModal}
+        showSecondModal={openSecondModal}
+      />
+      <SecondModal isOpen={isSecondModalOpen} closeModal={closeSecondModal} />
     </>
   );
 };
+
 export default Waitlist;
