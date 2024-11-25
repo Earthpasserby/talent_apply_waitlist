@@ -22,10 +22,10 @@ const Waitlist = () => {
       <div className="bg-[#0967D2] relative">
         <Header />
         <div className="text-center laptop:pb-12 tablet:pt-[124px] pt-[100px] w-[90vw] mx-auto max-w-[1280px]">
-          <h1 className="text-[#fff] font-normal lg:text-[44px] md:text-[44px] sm:text-[26px] text-[26px] pb-2">
+          <h1 className="text-[#fff] font-bold lg:text-[44px] md:text-[44px] sm:text-[26px] text-[26px] ">
             Job search + AI - enhance
           </h1>
-          <h1 className="text-[#fff] font-normal  md:text-[44px] sm:text-[26px] text-[26px] pb-8">
+          <h1 className="text-[#fff] font-bold  md:text-[44px] sm:text-[26px] text-[26px] pb-2 -mt-4">
             your job application process
           </h1>
           <p className="text-[#B8D2EE] pb-8 md:text-[20px] sm:text-[16px] text-[16px]">

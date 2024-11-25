@@ -26,7 +26,9 @@ const Feature_col = () => {
           <div className=" w-full nine:w-[49.2%] laptop:w-[32.333%] mb-4">
             <div className=" justify-start items-center gap-2 ">
               <div className="">
-                <img src={search} className="w-[47.5px]" alt="Review-img" />
+                <div className="rounded-full w-[47.5px] bg-[#0967D2] p-4">
+                  <img src={search} className="w-full" alt="Review-img" />
+                </div>
               </div>
               <h2 className="text-base text-[12.67px] mt-2 tablet:leading-9 leading-6 font-bold text-[#08121D]">
                 Effortlessly search for jobs.
@@ -38,8 +40,8 @@ const Feature_col = () => {
           </div>
           <div className=" w-full nine:w-[49.2%] laptop:w-[32.333%] mb-4">
             <div className=" justify-start items-center gap-2">
-              <div className="">
-                <img src={analysis} className="w-[47.5px]" alt="Review-img" />
+              <div className="rounded-full w-[47.5px] bg-[#E36308] p-4">
+                <img src={analysis} className="w-full" alt="Review-img" />
               </div>
               <h2 className="text-base text-[12.67px] mt-2 tablet:leading-9 leading-6 font-bold text-[#08121D]">
                 Analyze your CV/Resume , get instant results.
@@ -52,8 +54,8 @@ const Feature_col = () => {
           </div>
           <div className=" w-full nine:w-[49.2%] laptop:w-[32.333%] mb-4">
             <div className=" justify-start items-center gap-2">
-              <div className="">
-                <img src={generate} className="w-[47.5px]" alt="Review-img" />
+              <div className="rounded-full w-[47.5px] bg-[#E32908] p-4 border-0">
+                <img src={generate} className="w-full" alt="Review-img" />
               </div>
               <h2 className="text-base text-[12.67px] mt-2 tablet:leading-9 leading-6 font-bold text-[#08121D]">
                 Generate cover letter with ease.
@@ -66,8 +68,8 @@ const Feature_col = () => {
           </div>
           <div className=" w-full nine:w-[49.2%] laptop:w-[32.333%] mb-4">
             <div className=" justify-start items-center gap-2">
-              <div className="">
-                <img src={rep} className="w-[47.5px]" alt="Review-img" />
+              <div className="rounded-full w-[47.5px] bg-[#E3CC08] p-4">
+                <img src={rep} className="w-full" alt="Review-img" />
               </div>
               <h2 className="text-base text-[12.67px] mt-2 tablet:leading-9 leading-6 font-bold text-[#08121D]">
                 Prepare for your interviews.
@@ -80,8 +82,8 @@ const Feature_col = () => {
           </div>
           <div className=" w-full nine:w-[49.2%] laptop:w-[32.333%] mb-4">
             <div className=" justify-start items-center gap-2">
-              <div className="">
-                <img src={track} className="w-[47.5px]" alt="Review-img" />
+              <div className="rounded-full w-[47.5px] bg-[#09D220] p-4">
+                <img src={track} className="w-full" alt="Review-img" />
               </div>
               <h2 className="text-base text-[12.67px] mt-2 tablet:leading-9 leading-6 font-bold text-[#08121D]">
                 Track all your job applications in one place.
@@ -94,8 +96,8 @@ const Feature_col = () => {
           </div>{" "}
           <div className=" w-full nine:w-[49.2%] laptop:w-[32.333%] mb-4">
             <div className=" justify-start items-center gap-2">
-              <div className="">
-                <img src={view} className="w-[47.5px]" alt="Review-img" />
+              <div className="rounded-full w-[47.5px] bg-[#0967D2] p-4">
+                <img src={view} className="w-full" alt="Review-img" />
               </div>
               <h2 className="text-base text-[12.67px] mt-2 tablet:leading-9 leading-6 font-bold text-[#08121D]">
                 Review your profile and get to learn more.
@@ -108,7 +110,7 @@ const Feature_col = () => {
           </div>{" "}
           <div className=" w-full nine:w-[49.2%] laptop:w-[32.333%] mb-4">
             <div className=" justify-start items-center gap-2">
-              <div className="">
+              <div className="rounded-full w-[47.5px] bg-[#E36308] p-4">
                 <img src={create} className="w-[47.5px]" alt="Review-img" />
               </div>
               <h2 className="text-base text-[12.67px] mt-2 tablet:leading-9 leading-6 font-bold text-[#08121D]">
@@ -122,7 +124,7 @@ const Feature_col = () => {
           </div>{" "}
           <div className=" w-full nine:w-[49.2%] laptop:w-[32.333%] mb-4">
             <div className=" justify-start items-center gap-2">
-              <div className="">
+              <div className="rounded-full w-[47.5px] bg-[#E32908] p-4">
                 <img src={expand} className="w-[47.5px]" alt="Review-img" />
               </div>
               <h2 className="text-base text-[12.67px] mt-2 tablet:leading-9 leading-6 font-bold text-[#08121D]">
