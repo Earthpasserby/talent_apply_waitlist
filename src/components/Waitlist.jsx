@@ -9,7 +9,7 @@ const Waitlist = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isSecondModalOpen, setIsSecondModalOpen] = useState(false);
 
-  const openModal = () => setIsModalOpen(true);
+  // const openModal = () => setIsModalOpen(true);
   const closeModal = () => setIsModalOpen(false);
   const openSecondModal = () => {
     setIsModalOpen(false);
@@ -46,7 +46,7 @@ const Waitlist = () => {
                 type="text"
               />
               <button
-                onClick={openModal}
+                onClick={openSecondModal}
                 className=" absolute border-0 py-2 bg-[#fff] right-2 top-1/2 transform -translate-y-1/2  md:py-[10px] px-5 md:px-[25px] rounded-xl text-[#0967d2] text-base font-normal"
               >
                 Join the waitlist
