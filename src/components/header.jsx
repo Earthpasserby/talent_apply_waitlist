@@ -29,7 +29,7 @@ const Header = () => {
           </div>
           <div className="flex flex-1 items-center  sm:items-stretch sm:justify-start px-2">
             <div className="flex shrink-0 items-center">
-              <img src={TALogoWhite} className="size-[30px] w-[125px]" alt="logo" />
+              <img src={TALogoWhite} className=" w-[135px]" alt="logo" />
             </div>
           </div>
           <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
