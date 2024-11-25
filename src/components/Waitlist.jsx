@@ -41,7 +41,7 @@ const Waitlist = () => {
             <div className="relative flex justify-center items-center">
               <input
                 id="searchInput"
-                className="pl-4 pr-4 flex py-2  w-full mx-auto max-w-[100%] tablet:max-w-[600px] laptop:max-w-[780px]  h-[64px] px-4 placeholder:text-white placeholder:opacity-50  placeholder:text-sm bg-transparent outline-0 focus:outline-none border border-[#F8FBFF] rounded-[18px]"
+                className="pl-4 pr-4 flex py-2  w-full mx-auto max-w-[100%] tablet:max-w-[600px] laptop:max-w-[780px]  h-[64px] px-4 text-white placeholder:text-white placeholder:opacity-50  placeholder:text-sm bg-transparent outline-0 focus:outline-none border border-[#F8FBFF] rounded-[18px] focus:ring-2 focus:ring-white"
                 placeholder="Enter your email address"
                 type="text"
               />

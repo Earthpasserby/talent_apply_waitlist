@@ -1,18 +1,20 @@
 import React, { useState } from "react";
+import close from "../assets/Pngs/close.png";
 
 const Modal = ({ isOpen, closeModal, showSecondModal }) => {
   const [inputValue, setInputValue] = useState("");
 
   if (!isOpen) return null; // Do not render if modal is not open
+  const isInputActive = inputValue.trim() !== "";
 
   return (
     <div className="fixed inset-0 flex justify-center items-center bg-[#08121DB2] bg-opacity-100 z-50">
       <div className="bg-white p-8 rounded-lg shadow-lg w-[90%] max-w-[533px] relative">
         <button
           onClick={closeModal}
-          className="absolute top-0 right-4 text-[#000] text-[50px] font-normal "
+          className="absolute top-6 right-4 text-[#000] text-[24px] font-normal "
         >
-          &times;
+          <img src={close} className="w-[30px]" alt="Review-img" />
         </button>
         <h2 className="text-[16px] font-normal text-[#08121D] mb-2">
           Join the Waitlist
@@ -32,7 +34,12 @@ const Modal = ({ isOpen, closeModal, showSecondModal }) => {
         <div className="flex justify-end gap-4 pt-4">
           <button
             onClick={showSecondModal}
-            className="px-4 py-2 bg-[#B8D2EE] text-[#438CDF] text-[16px] rounded-lg w-full h-[40px] hover:bg-[#0967D2] hover:text-white"
+            disabled={!isInputActive} // Disable button if input is empty
+            className={`px-4 py-2 text-[16px] rounded-lg w-full h-[40px] ${
+              isInputActive
+                ? "bg-[#0967D2] text-white hover:bg-[#074c9f]"
+                : "bg-[#B8D2EE] text-[#438CDF] cursor-not-allowed"
+            }`}
           >
             Join waitlist
           </button>
@@ -50,10 +57,11 @@ const SecondModal = ({ isOpen, closeModal }) => {
       <div className="bg-white p-8 rounded-lg shadow-lg w-[90%] max-w-[400px] relative">
         <button
           onClick={closeModal}
-          className="absolute top-0 right-4 text-[#000] text-[40px] font-normal"
+          className="absolute top-6 right-4 text-[#000]"
         >
-          &times;
+          <img src={close} className="w-[30px]" alt="Review-img" />
         </button>
+
         <h2 className="text-[20px] font-bold text-[#08121D] mb-2 text-center pt-4">
           Congratulations! We have successfully received your email
         </h2>
