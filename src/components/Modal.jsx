@@ -26,7 +26,7 @@ const Modal = ({ isOpen, closeModal, showSecondModal }) => {
             type="text"
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
-            className="w-full border border-[#E9EAF2] rounded-lg py-2 px-4 mb-4 h-[50px] placeholder:text-[#949E9B] placeholder:opacity-50  placeholder:text-sm outline-0"
+            className="w-full border border-[#E9EAF2] rounded-lg py-2 px-4 mb-4 h-[50px] placeholder:text-[#949E9B] placeholder:opacity-50  placeholder:text-sm outline-0  focus:ring-1 focus:ring-[#B8D2EE]-200  "
             placeholder="Enter your email address"
           />
         </div>
