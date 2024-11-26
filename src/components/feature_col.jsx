@@ -33,7 +33,7 @@ const Feature_col = () => {
               <h2 className="text-base text-[12.67px] mt-2 tablet:leading-9 leading-6 font-bold text-[#08121D]">
                 Effortlessly search for jobs.
               </h2>
-              <p className="text-[9.5px] text-left mt-2 text-[#373D43]">
+              <p className="text-[12px] text-left mt-2 text-[#373D43]">
                 Find your dream jobs and seamlessly apply with the improved AI.
               </p>
             </div>
@@ -46,7 +46,7 @@ const Feature_col = () => {
               <h2 className="text-base text-[12.67px] mt-2 tablet:leading-9 leading-6 font-bold text-[#08121D]">
                 Analyze your CV/Resume , get instant results.
               </h2>
-              <p className="text-[9.5px] text-left mt-2 text-[#373D43]">
+              <p className="text-[12px] text-left mt-2 text-[#373D43]">
                 Optimize your resume with personalized feedback for maximum
                 impact.
               </p>
@@ -60,7 +60,7 @@ const Feature_col = () => {
               <h2 className="text-base text-[12.67px] mt-2 tablet:leading-9 leading-6 font-bold text-[#08121D]">
                 Generate cover letter with ease.
               </h2>
-              <p className="text-[9.5px] text-left mt-2 text-[#373D43]">
+              <p className="text-[12px] text-left mt-2 text-[#373D43]">
                 Create tailored cover letters that stand out with AI-driven
                 suggestions.
               </p>
@@ -74,7 +74,7 @@ const Feature_col = () => {
               <h2 className="text-base text-[12.67px] mt-2 tablet:leading-9 leading-6 font-bold text-[#08121D]">
                 Prepare for your interviews.
               </h2>
-              <p className="text-[9.5px] text-left mt-2 text-[#373D43]">
+              <p className="text-[12px] text-left mt-2 text-[#373D43]">
                 Get ready for your next interview with expert-guided practice
                 and insights.
               </p>
@@ -88,7 +88,7 @@ const Feature_col = () => {
               <h2 className="text-base text-[12.67px] mt-2 tablet:leading-9 leading-6 font-bold text-[#08121D]">
                 Track all your job applications in one place.
               </h2>
-              <p className="text-[9.5px] text-left mt-2 text-[#373D43]">
+              <p className="text-[12px] text-left mt-2 text-[#373D43]">
                 Stay organized by tracking all your job applications in one
                 place.
               </p>
@@ -102,7 +102,7 @@ const Feature_col = () => {
               <h2 className="text-base text-[12.67px] mt-2 tablet:leading-9 leading-6 font-bold text-[#08121D]">
                 Review your profile and get to learn more.
               </h2>
-              <p className="text-[9.5px] text-left mt-2 text-[#373D43]">
+              <p className="text-[12px] text-left mt-2 text-[#373D43]">
                 Enhance your professional profiles with detailed improvement
                 tips.
               </p>
@@ -116,7 +116,7 @@ const Feature_col = () => {
               <h2 className="text-base text-[12.67px] mt-2 tablet:leading-9 leading-6 font-bold text-[#08121D]">
                 Create a job pipeline tailored to you.
               </h2>
-              <p className="text-[9.5px] text-left mt-2 text-[#373D43]">
+              <p className="text-[12px] text-left mt-2 text-[#373D43]">
                 Build a strong pipeline of opportunities and stay ahead in your
                 career search.
               </p>
@@ -130,7 +130,7 @@ const Feature_col = () => {
               <h2 className="text-base text-[12.67px] mt-2 tablet:leading-9 leading-6 font-bold text-[#08121D]">
                 Expand your search and get to see more jobs.
               </h2>
-              <p className="text-[9.5px] text-left mt-2 text-[#373D43]">
+              <p className="text-[12px] text-left mt-2 text-[#373D43]">
                 Login to your ProDevs account to see how this works.
               </p>
             </div>
